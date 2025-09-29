@@ -6,7 +6,15 @@ transition: slide-down
 <Timeline
   v-motion
   :initial="{ x: -430 }"
-  :enter="{ x: -430 }"
+  :enter="{
+      x: -430,
+      transition: {
+        type: 'spring',
+        stiffness: '50',
+        mass: '0.5',
+        delay: 100,
+       },
+  }"
   :click-1="{ x: -1380 }"
   title="Oktober 2025"
   heading="Spendenlauf"
@@ -17,7 +25,15 @@ transition: slide-down
   v-click
   v-motion
   :initial="{ x: 950 }"
-  :enter="{ x: -430 }"
+  :enter="{
+      x: -430,
+      transition: {
+        type: 'spring',
+        stiffness: '50',
+        mass: '0.5',
+        delay: 100,
+       },
+  }"
   :click-2="{ x: -1380 }"
   title="Dezember 2025"
   heading="Weihnachtspäckchenaktion"
@@ -28,7 +44,15 @@ transition: slide-down
   v-click
   v-motion
   :initial="{ x: 950 }"
-  :enter="{ x: -430 }"
+  :enter="{
+      x: -430,
+      transition: {
+        type: 'spring',
+        stiffness: '50',
+        mass: '0.5',
+        delay: 100,
+       },
+  }"
   :click-3="{ x: -1380 }"
   title="06. Dezember 2025"
   heading="Nikolausaktion"
@@ -39,7 +63,15 @@ transition: slide-down
   v-click
   v-motion
   :initial="{ x: 950 }"
-  :enter="{ x: -430 }"
+  :enter="{
+      x: -430,
+      transition: {
+        type: 'spring',
+        stiffness: '50',
+        mass: '0.5',
+        delay: 100,
+       },
+  }"
   :click-4="{ x: -1380 }"
   title="Februar 2026"
   heading="Fasching"
@@ -50,7 +82,15 @@ transition: slide-down
   v-click
   v-motion
   :initial="{ x: 950 }"
-  :enter="{ x: -430 }"
+  :enter="{
+      x: -430,
+      transition: {
+        type: 'spring',
+        stiffness: '50',
+        mass: '0.5',
+        delay: 100,
+       },
+  }"
   :click-5="{ x: -1380 }"
   title="14. Februar 2026"
   heading="Valentinstag"
@@ -61,7 +101,15 @@ transition: slide-down
   v-click
   v-motion
   :initial="{ x: 950 }"
-  :enter="{ x: -430 }"
+  :enter="{
+      x: -430,
+      transition: {
+        type: 'spring',
+        stiffness: '50',
+        mass: '0.5',
+        delay: 100,
+       },
+  }"
   :click-6="{ x: -1380 }"
   title="Mai 2026"
   heading="Bunsencup"
