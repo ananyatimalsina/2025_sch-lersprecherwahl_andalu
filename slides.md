@@ -27,3 +27,7 @@ src: ./pages/aktionen.md
 ---
 src: ./pages/möglicheAktionen.md
 ---
+
+---
+src: ./pages/danke.md
+---
