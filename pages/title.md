@@ -1,6 +1,6 @@
 ---
 layout: title-blob
-background: "/img/title.jpg"
+background: "/img/title.png"
 transition: slide-up
 ---
 # DAS SIND WIR!
